@@ -1,4 +1,5 @@
 .navbar{
+   
     height: 5rem;
     width: 100vw;
     max-width: 75rem;
@@ -22,6 +23,7 @@
 .desktopMenuListItem{
     margin: 1rem;
     cursor: pointer;
+    color: white;
 
 }
 

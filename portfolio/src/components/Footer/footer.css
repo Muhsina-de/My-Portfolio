@@ -1,0 +1,59 @@
+.footer {
+    height: 7rem; /* Doubled the height */
+    width: 100vw; /* Full page width */
+    max-width: 100%; /* Ensure it spans the full width */
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction:row ;/* Change to column to center items vertically */
+    align-items: center;/* Center items vertically */
+    justify-content:center; /* Center items horizontally */
+    background-color: rgb(224, 213, 1); /* Background color */
+    color: #fcfcfc; /* Text color */
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
+.footerLogo {
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    margin-bottom: 1rem; /* Add some space below the logo */
+}
+
+.footer-icon {
+    height: 30px;
+    width: 30px;
+    transition:transform 0.3s; /* Add space around the icons */    
+    margin-right: 20px;
+}
+
+.footerMenu {
+    display: flex;
+    gap: 2rem; /* Space between menu items */
+}
+
+.footerMenuListItem {
+    cursor: pointer;
+    color: white; /* Text color */
+
+}
+
+.footerMenuListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.footerMenuBtn {
+    background: black; /* Background color */
+    color: white; /* Text color */
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 1rem; /* Add some space above the button */
+}
